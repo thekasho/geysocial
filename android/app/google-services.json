@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904646289214",
+    "project_id": "gymsocial-70e88",
+    "storage_bucket": "gymsocial-70e88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904646289214:android:aa2056bc0d766401072e6f",
+        "android_client_info": {
+          "package_name": "com.gymsocial.gymsocial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ6NAhMbnn-tm_dP9lPNUT2Ue0pyFWGww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
