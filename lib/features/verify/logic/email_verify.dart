@@ -174,7 +174,7 @@ class EmailVerifyContImp extends EmailVerifyCont {
             onWillPop: () async {
               Get.back();
               // Get.back();
-              Get.toNamed(screenLogin);
+              Get.offAllNamed(screenLogin);
               return false;
             },
           );

@@ -1,4 +1,5 @@
 import 'package:get/get_navigation/src/routes/get_route.dart';
+import 'package:gymsocial/features/home/ui/home.dart';
 
 import 'config/config.dart';
 import 'features/landing/ui/home.dart';
@@ -12,6 +13,7 @@ List<GetPage<dynamic>>? routes = [
   GetPage(name: screenLogin, page: () => const LoginScreen()),
   GetPage(name: screenSignUp, page: () => const SignUpScreen()),
   GetPage(name: screenEmailVerify, page: () => const EmailVerifyScreen()),
+  GetPage(name: screenHome, page: () => const HomeScreen()),
 
 ];
 

@@ -24,7 +24,7 @@ class LandingContImp extends LandingCont {
   checkAuth() async {
     var loginData  = await LocaleApi.getLoginData();
     if(loginData != null){
-      // Get.offAllNamed(screenHome);
+      Get.offAllNamed(screenHome);
     } else {
       Get.offAllNamed(screenLogin);
     }
